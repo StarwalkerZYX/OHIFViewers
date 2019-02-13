@@ -15,11 +15,11 @@
             "type": "node",
             "request": "launch",
             "name": "Meteor: Node",
-            "runtimeExecutable": "meteor",
-            "runtimeArgs": ["--settings" "../config/orthancDICOMWeb.json"],
+            "runtimeExecutable": "npm",
+            "runtimeArgs": ["run", "debug"],
             "outputCapture": "std",
             "port": 9229,
-            "timeout": 30000
+            "timeout": 300000
         }
     ],
     "compounds": [
